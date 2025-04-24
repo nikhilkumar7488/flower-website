@@ -1,0 +1,10 @@
+# .gitignore
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.vscode/
+Thumbs.db
+*.zip
+*.tmp

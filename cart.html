@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart - Bloom & Petals</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="cart.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">
+      <h1>🌸 Bloom & Petals</h1>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#products">Products</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main class="cart-page">
+    <h2>Your Shopping Cart</h2>
+    <div id="cart-container">
+      <div id="cart-items-list">
+        <!-- Cart items will be displayed here -->
+      </div>
+      <div class="cart-summary">
+        <h3>Order Summary</h3>
+        <div class="summary-item">
+          <span>Subtotal:</span>
+          <span id="subtotal">₹0</span>
+        </div>
+        <div class="summary-item">
+          <span>Shipping:</span>
+          <span>₹50</span>
+        </div>
+        <div class="summary-item total">
+          <span>Total:</span>
+          <span id="total-price">₹0</span>
+        </div>
+        <button id="checkout-btn" class="checkout-button">
+          Proceed to Checkout
+        </button>
+        <a href="index.html" class="continue-shopping">
+          <i class="fas fa-arrow-left"></i> Continue Shopping
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <script src="cart.js"></script>
+</body>
+</html> 
